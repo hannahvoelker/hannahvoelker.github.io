@@ -7,6 +7,7 @@ h1 {
     color: black;
     font-family: 'Handlee', cursive;
     text-align: center;
+    font-size: 5em;
 
 }
 
@@ -20,7 +21,6 @@ h3 {
     text-align: center;
     color: #3cc4d1; 
     font-family: 'Handlee', cursive;
-    line-height:1.34em;
 }
 .navigation {
     background-color: #def7f9;
@@ -41,6 +41,11 @@ p {
     color: #11383d;
     text-align: center;
     padding: 200 px;
+}
+.description {
+    background-color: #def7f9;
+    margin: 500px;
+
 }
 .project {
     padding-top: 50px;
@@ -65,10 +70,18 @@ p {
    padding: 50 px;
 
 } 
+h4 {
+    font-size: 2 em;
+    text-align: center;
+    color: #3cc4d1; 
+    font-family: 'Handlee', cursive;
+}
 .header {
+    font-size: 3.5em;
     font-family: 'Handlee', cursive;
     text-align: center;
     color: black;
+
 }  
 .row:before, .row:after {
   content: ""; display: table;
