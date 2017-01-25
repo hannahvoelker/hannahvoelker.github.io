@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+    background-color: #80b6bc;
     color: azure;
     font-size: 1.1em;
 }
 h1 {
     color: #e03883;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sacramento', cursive;
     text-align: center;
     line-height:1.34em;
     height:100%;
@@ -26,7 +26,7 @@ h1 {
 h3 {
     text-align: center;
     color: #3cc4d1; 
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sacramento', cursive;
     line-height:1.34em;
     height:100%;
     margin-left:auto;
@@ -34,13 +34,13 @@ h3 {
     max-width:670px;
 }
 
-h3:hover {
+.navigation:hover {
    color: #d3e8e3;
 }
-h3:unvisited {
+.navigation:unvisited {
   color: #3cc4d1;
 }
-h3:visited {
+.navigation:visited {
     color: white;
 }
 p {
@@ -54,7 +54,7 @@ p {
     margin-right:auto;
     max-width:670px;
 }
-p#project {
+.project {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -63,7 +63,7 @@ p#project {
     color: white;
     text-align: center;
 }
-#project:hover {
+.project:hover {
     padding-top: 70px;
     padding-right: 30px;
     padding-bottom: 70px;
