@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: azure;
+    font-size: 1.1em;
+}
+h1 {
+    color: #e03883;
+    font-family: Helvetica;
+    text-align: center;
+    line-height:1.34em;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:670px;
+    margin-bottom:30px;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle:hover {
+    opacity:0.5;
+}
+h3 {
+    text-align: center;
+    color: #3cc4d1; 
+    font-family: Helvetica;
+    line-height:1.34em;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:670px;
+}
+
+h3:hover {
+   color: #d3e8e3;
+}
+h3:unvisited {
+  color: #3cc4d1;
+}
+h3:visited {
+    color: white;
+}
+p {
+    font-size: 0.75em;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+     line-height:1.34em;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:670px;
+}
+#project {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+}
+#project:hover {
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+    font-size: 1.5em;
+    background: #c4c4c4;
+}
+    
