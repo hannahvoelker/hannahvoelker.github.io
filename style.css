@@ -31,13 +31,13 @@ h3 {
 .navigation:unvisited {
   color: #3cc4d1;
 }
-.navigation:link{
+.navigation:active{
     color: #11383d;
 }
 p {
     font-size: 0.75em;
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #11383d;
     text-align: center;
 }
 .project {
@@ -46,7 +46,7 @@ p {
     padding-bottom: 50px;
     padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #11383d;
     text-align: center;
 }
 .project:hover {
@@ -59,12 +59,12 @@ p {
 }
 .resume {
    background-color: #def7f9;
+   padding: 50 px;
 
 } 
 .header {
     text-align: left;
     color: black;
-    font-variant: small-caps;
 }  
 .row:before, .row:after {
   content: ""; display: table;
