@@ -46,7 +46,11 @@ p {
 }
 .description {
     background-color: #def7f9;
-    margin: 500px;
+    padding: 200px;
+    text-align: center;
+    color: #11383d;
+    font-family: 'Open Sans', sans-serif;
+}
 
 }
 .project {
@@ -89,7 +93,7 @@ h4 {
   content: ""; display: table;
 }
 .resume-description {
-    padding: 8px;
+    padding: 200px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
