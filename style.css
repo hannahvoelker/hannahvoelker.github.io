@@ -5,7 +5,7 @@ body {
 }
 h1 {
     color: #e03883;
-    font-family: Helvetica;
+    font-family: 'Pacifico', cursive;
     text-align: center;
     line-height:1.34em;
     height:100%;
@@ -26,7 +26,7 @@ h1 {
 h3 {
     text-align: center;
     color: #3cc4d1; 
-    font-family: Helvetica;
+    font-family: 'Pacifico', cursive;
     line-height:1.34em;
     height:100%;
     margin-left:auto;
@@ -45,7 +45,7 @@ h3:visited {
 }
 p {
     font-size: 0.75em;
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: center;
      line-height:1.34em;
@@ -54,12 +54,12 @@ p {
     margin-right:auto;
     max-width:670px;
 }
-#project {
+p#project {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    font-family: Helvetica;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: center;
 }
