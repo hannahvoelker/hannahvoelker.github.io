@@ -4,17 +4,9 @@ body {
     font-size: 1.1em;
 }
 h1 {
-    color: #e03883;
-    font-family: 'Sacramento', cursive;
+    color: black;
+    font-family: 'Handlee', cursive;
     text-align: center;
-    line-height:1.34em;
-    height:100%;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:670px;
-    margin-bottom:30px;
-    padding-top:30px;
-    padding-bottom:20px;
 }
 
 .img-circle {
@@ -26,14 +18,16 @@ h1 {
 h3 {
     text-align: center;
     color: #3cc4d1; 
-    font-family: 'Sacramento', cursive;
+    font-family: 'Handlee', cursive;
     line-height:1.34em;
-    height:100%;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:670px;
 }
-
+.navigation {
+    background-color: #def7f9;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
 .navigation:hover {
    color: #d3e8e3;
 }
@@ -41,18 +35,13 @@ h3 {
   color: #3cc4d1;
 }
 .navigation:visited {
-    color: white;
+    color: #11383d;
 }
 p {
     font-size: 0.75em;
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: center;
-     line-height:1.34em;
-    height:100%;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:670px;
 }
 .project {
     padding-top: 50px;
