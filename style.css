@@ -23,10 +23,7 @@ h3 {
 }
 .navigation {
     background-color: #def7f9;
-    padding-top: 50px;
-    padding-right: 10px;
-    padding-bottom: 50px;
-    padding-left: 10px;
+    padding: 8px;
 }
 .navigation:hover {
    color: #d3e8e3;
@@ -34,7 +31,7 @@ h3 {
 .navigation:unvisited {
   color: #3cc4d1;
 }
-.navigation:visited {
+.navigation:link{
     color: #11383d;
 }
 p {
@@ -60,4 +57,18 @@ p {
     font-size: 1.5em;
     background: #c4c4c4;
 }
-    
+.resume {
+   background-color: #def7f9;
+
+} 
+.header {
+    text-align: left;
+    color: black;
+    font-variant: small-caps;
+}  
+.row:before, .row:after {
+  content: ""; display: table;
+}
+.resume-description {
+    padding: 8px;
+}
