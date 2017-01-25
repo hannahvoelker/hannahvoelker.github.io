@@ -35,10 +35,11 @@ h3 {
     color: #11383d;
 }
 p {
-    font-size: 0.75em;
+    font-size: 2 em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
     text-align: center;
+    padding: 200 px;
 }
 .project {
     padding-top: 50px;
@@ -56,6 +57,7 @@ p {
     padding-left: 80px;
     font-size: 1.5em;
     background: #c4c4c4;
+    margin: 40 px;
 }
 .resume {
    background-color: #def7f9;
