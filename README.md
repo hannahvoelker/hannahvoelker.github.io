@@ -7,7 +7,7 @@ My personal portfolio, following the specifications for Comp 20.
 * Resume page: includes full name, education, professional experience, skills, and activites.
 * Bio: A short biography of me. 
 * index: includes image of me, link to my resume and my bio.
-* Did not use any of the "banned" things (eg, no frames, styling elements/attributes, absolute image urls, bootstrap, other people's CSS, Javascript/jquery). All work, aside from the google fonts, is my own and my idea. The only reference I used was the html color picker from Google, Google fonts, and W3school's CSS page to give me tips when I was stuck.
+* Did not use any of the "banned" things (eg, no frames, styling elements/attributes, absolute image urls, bootstrap, other people's CSS, Javascript/jquery). All work, aside from the google fonts, is my own and my idea. The only reference I used was the html color picker from Google, Google fonts, and W3Cschool's CSS page to give me tips when I was stuck.
 
 ### Incorrectly implemented:
 * I did not incorrectly implement anything. I did, however, add a few extra pages in order to really make it the site I want to show to employers. I had a personal site prior to this assignment, but I was using a template. 
