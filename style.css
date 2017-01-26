@@ -47,10 +47,11 @@ p {
 }
 .description {
     background-color: #def7f9;
-    padding: -50px;
+    padding: 5px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
+    margin: 70px;
 }
 
 .project {
@@ -63,10 +64,6 @@ p {
     text-align: center;
 }
 .project:hover {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
     font-size: 2em;
     background: #c4c4c4;
     margin: 40px;
@@ -74,7 +71,8 @@ p {
 }
 .resume {
    background-color: #def7f9;
-   padding: -50px;
+   padding: 5px;
+   margin: 70px;
 
 } 
 h4 {
