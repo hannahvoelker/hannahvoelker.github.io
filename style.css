@@ -29,7 +29,7 @@ h3 {
 .navigation {
     background-color: #def7f9;
     padding: 8px;
-    border: 2px solid black;
+    border: 1px dotted black;
     border-radius: 5px;
 }
 .navigation:hover {
@@ -70,9 +70,10 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: black;
     text-align: center;
+    background-color: #def7f9;
+
 }
 .project:hover {
-    font-size: 2em;
     background: #c4c4c4;
     margin: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -90,6 +91,8 @@ h4 {
     font-family: 'Handlee', cursive;
 }
 .header {
+    padding-top: 5px;
+    padding-bottom: 10px;
     border-bottom: 4px dotted black;
     font-size: 1.35em;
     font-family: 'Handlee', cursive;
@@ -100,7 +103,6 @@ h4 {
   content: ""; display: table;
 }
 .resume-description {
-    padding: 2px;
     font-size: 0.8em;
     text-align: center;
     color: #11383d;
