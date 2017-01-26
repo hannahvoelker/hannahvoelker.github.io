@@ -29,6 +29,8 @@ h3 {
 .navigation {
     background-color: #def7f9;
     padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 .navigation:hover {
    color: #d3e8e3;
@@ -41,7 +43,7 @@ h3 {
     background: white;
 }
 .navigation:visited{
-    color: white;
+    color: #42f4c8;
 }
 p {
     font-size: 0.75em;
@@ -56,6 +58,8 @@ p {
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
     margin: 75px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
 .project {
@@ -86,8 +90,8 @@ h4 {
     font-family: 'Handlee', cursive;
 }
 .header {
-    border-bottom: 6px dotted black;
-    font-size: 1.25em;
+    border-bottom: 4px dotted black;
+    font-size: 1.35em;
     font-family: 'Handlee', cursive;
     text-align: center;
     color: black;
@@ -96,7 +100,7 @@ h4 {
   content: ""; display: table;
 }
 .resume-description {
-    padding: 5px;
+    padding: 2px;
     font-size: 0.8em;
     text-align: center;
     color: #11383d;
