@@ -75,7 +75,11 @@ p {
 }
 .project:hover {
     background: #c4c4c4;
-    margin: 40px;
+    margin: 60px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
 }
 .resume {
