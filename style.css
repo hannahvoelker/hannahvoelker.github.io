@@ -63,6 +63,7 @@ p {
 }
 
 .project {
+    opacity: 1.0;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -83,10 +84,10 @@ p {
     padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
     border: 2px dotted black;
+    opacity: 1.0;
 
 }
 .project-image {
-    opacity: 0.5;
     padding: 5px;
     display:block;
     margin: auto;
@@ -94,9 +95,7 @@ p {
     width: 250px; 
     overflow: hidden;
 }
-.project-image:hover{
-    opacity: 1.0;
-}
+
 .resume {
    background-color: #def7f9;
    padding: 5px;
