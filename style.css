@@ -9,11 +9,12 @@ h1 {
     text-align: center;
     font-size: 3.5 em;
 }
-
-.img-circle {
-    border-radius: 50%;
+img {
     width:244px;
     height:328px;
+}
+.img-circle {
+    border-radius: 50%;
     align-content: center;
 }
 .img-circle:hover {
