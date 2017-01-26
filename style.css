@@ -36,8 +36,12 @@ h3 {
 .navigation:link {
   color: #3cc4d1;
 }
+.navigation:active {
+    color: black;
+    background: white;
+}
 .navigation:visited{
-    color: #11383d;
+    color: white;
 }
 p {
     font-size: 0.75em;
@@ -47,11 +51,11 @@ p {
 }
 .description {
     background-color: #def7f9;
-    padding: 5px;
+    padding: 25px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
-    margin: 70px;
+    margin: 75px;
 }
 
 .project {
@@ -82,19 +86,22 @@ h4 {
     font-family: 'Handlee', cursive;
 }
 .header {
-    font-size: 0.8em;
+    border-bottom: 6px dotted black;
+    font-size: 1.25em;
     font-family: 'Handlee', cursive;
     text-align: center;
     color: black;
-
 }  
 .row:before, .row:after {
   content: ""; display: table;
 }
 .resume-description {
     padding: 5px;
-    font-size: 0.5em;
+    font-size: 0.8em;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
+}
+ul {
+     list-style-position: inside;
 }
