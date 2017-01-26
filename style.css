@@ -36,20 +36,18 @@ h3 {
 .navigation:link {
   color: #3cc4d1;
 }
-.navigation:visted{
+.navigation:visited{
     color: #11383d;
 }
 p {
-    font-size: 2em;
+    font-size: 0.75em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
     text-align: center;
-    padding: 200px;
 }
 .description {
     background-color: #def7f9;
-    padding: 50px;
-    margin: 60px;
+    padding: -50px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
@@ -76,17 +74,17 @@ p {
 }
 .resume {
    background-color: #def7f9;
-   padding: 50px;
+   padding: -50px;
 
 } 
 h4 {
-    font-size: 2.75em;
+    font-size: 1em;
     text-align: center;
     color: #3cc4d1; 
     font-family: 'Handlee', cursive;
 }
 .header {
-    font-size: 2.5em;
+    font-size: 0.8em;
     font-family: 'Handlee', cursive;
     text-align: center;
     color: black;
@@ -97,7 +95,7 @@ h4 {
 }
 .resume-description {
     padding: 5px;
-    font-size: 1.5em;
+    font-size: 0.5em;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
