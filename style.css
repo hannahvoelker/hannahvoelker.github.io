@@ -7,7 +7,7 @@ h1 {
     color: black;
     font-family: 'Handlee', cursive;
     text-align: center;
-    font-size: 3.5 em;
+    font-size: 3.5em;
 }
 img {
     width:244px;
@@ -40,29 +40,28 @@ h3 {
     color: #11383d;
 }
 p {
-    font-size: 2 em;
+    font-size: 2em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
     text-align: center;
-    padding: 200 px;
+    padding: 200px;
 }
 .description {
     background-color: #def7f9;
     padding: 50px;
-    margin: 60 px;
+    margin: 60px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
 }
 
-}
 .project {
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
-    color: #11383d;
+    color: black;
     text-align: center;
 }
 .project:hover {
@@ -70,17 +69,18 @@ p {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 30px;
-    font-size: 2 em;
+    font-size: 2em;
     background: #c4c4c4;
-    margin: 40 px;
+    margin: 40px;
+    font-family: 'Open Sans', sans-serif;
 }
 .resume {
    background-color: #def7f9;
-   padding: 50 px;
+   padding: 50px;
 
 } 
 h4 {
-    font-size: 2.75xs em;
+    font-size: 2.75em;
     text-align: center;
     color: #3cc4d1; 
     font-family: 'Handlee', cursive;
