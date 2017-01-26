@@ -12,7 +12,8 @@ h1 {
 img {
     width:244px;
     height:328px;
-    align-content: center;
+    display: block;
+    margin: auto;
 }
 .img-circle {
     border-radius: 50%;
