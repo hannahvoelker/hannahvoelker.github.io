@@ -69,6 +69,7 @@ p {
     padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
     color: black;
+    margin: 50px;
     text-align: center;
     background-color: #def7f9;
 
@@ -81,6 +82,8 @@ p {
     padding-bottom: 50px;
     padding-left: 80px;
     font-family: 'Open Sans', sans-serif;
+    border: 2px dotted black;
+
 }
 .resume {
    background-color: #def7f9;
