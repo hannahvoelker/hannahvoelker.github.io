@@ -12,10 +12,10 @@ h1 {
 img {
     width:244px;
     height:328px;
+    align-content: center;
 }
 .img-circle {
     border-radius: 50%;
-    align-content: center;
 }
 .img-circle:hover {
     opacity:0.5;
@@ -47,7 +47,8 @@ p {
 }
 .description {
     background-color: #def7f9;
-    padding: 200px;
+    padding: 50px;
+    margin: 60 px;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
@@ -78,7 +79,7 @@ p {
 
 } 
 h4 {
-    font-size: 2 em;
+    font-size: 2.75xs em;
     text-align: center;
     color: #3cc4d1; 
     font-family: 'Handlee', cursive;
@@ -94,7 +95,8 @@ h4 {
   content: ""; display: table;
 }
 .resume-description {
-    padding: 200px;
+    padding: 5px;
+    font-size: 1.5 em;
     text-align: center;
     color: #11383d;
     font-family: 'Open Sans', sans-serif;
