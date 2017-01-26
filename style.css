@@ -46,7 +46,7 @@ h3 {
     color: #42f4c8;
 }
 p {
-    font-size: 0.75em;
+    font-size: 0.8em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
     text-align: center;
@@ -75,7 +75,7 @@ p {
 
 }
 .project:hover {
-    background: #c4c4c4;
+    background: #8daaa7;
     margin: 60px;
     padding-top: 50px;
     padding-right: 30px;
@@ -84,6 +84,13 @@ p {
     font-family: 'Open Sans', sans-serif;
     border: 2px dotted black;
 
+}
+.project-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    position: absolute;
 }
 .resume {
    background-color: #def7f9;
