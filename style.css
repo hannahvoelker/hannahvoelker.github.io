@@ -76,8 +76,8 @@ p {
 
 }
 .project:hover {
-    background: #8daaa7;
-    margin: 60px;
+    background: white;
+    margin: 50px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -85,7 +85,6 @@ p {
     font-family: 'Open Sans', sans-serif;
     border: 2px dotted black;
     opacity: 1.0;
-
 }
 .project-image {
     padding: 5px;
