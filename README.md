@@ -17,3 +17,6 @@ I believe I spent about two hours on the bulk of the required portion. Another 2
 
 ### Did I collaborate with anyone?
 I did chat with Ming and a couple of the TA's on some advice regarding the transition from using a template to completely scrapping everything and going from scratch (for me, this was hard. my former site looked pretty, but it wasn't unique). I had some questions about what was allowed for fonts. I didn't speak to anyone else about my project, but I may end up helping another student on theirs since I am done the bare minimum on 1/25. 
+
+#### Addendum
+My github.io page redirects to my personal url that I purchased back in July. However, the index.html file on the server redirects to hannahvoelker.github.io always, in case I ever do not repurchase the hannahvoelker.com domain.
