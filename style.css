@@ -14,14 +14,11 @@ img {
     height:328px;
     display: block;
     margin: auto;
+}
+.profile {
     float: left;
 }
-.img-circle {
-    border-radius: 50%;
-}
-.img-circle:hover {
-    opacity:0.6;
-}
+
 h3 {
     text-align: center;
     color: #3cc4d1; 
