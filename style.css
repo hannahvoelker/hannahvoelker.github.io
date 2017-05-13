@@ -17,6 +17,8 @@ img {
 }
 .profile {
     float: left;
+    padding: 8px;
+    padding-right: 80px;
 }
 
 h3 {
@@ -63,7 +65,6 @@ p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
-    padding-left: 30px;
 }
 .project {
     opacity: 1.0;
@@ -97,7 +98,10 @@ p {
     width: 250px; 
     overflow: hidden;
 }
+.project-inner {
+    overflow: hidden;
 
+}
 .resume {
    background-color: #def7f9;
    padding: 5px;
