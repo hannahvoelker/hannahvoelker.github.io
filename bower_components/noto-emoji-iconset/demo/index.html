@@ -1,0 +1,115 @@
+<!--
+@license
+Copyright 2016 Raul Santos Lebrato. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>noto-emoji-iconset</title>
+
+  <script>
+    window.Polymer = {
+      dom: 'shadow',
+      lazyRegister: true
+    };
+  </script>
+
+  <link rel="import" href="noto-demo.html">
+
+  <style is="custom-style">
+    body {
+      font-family: Roboto, Helvetica, sans-serif;
+      background: #fafafa;
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
+  
+    h1 {
+      font-weight: lighter;
+    }
+
+    .card {
+      margin: 16px;
+      padding: 8px 16px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    }
+
+    .big iron-icon,
+    .big emoji-icon {
+      --iron-icon-width: 64px;
+      --iron-icon-height: 64px;
+      
+      --emoji-icon-width: 64px;
+      --emoji-icon-height: 64px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+    <h1>Using &lt;iron-icon&gt;</h1>
+    <p>
+      <iron-icon icon="emoji:🤣"></iron-icon>
+      <iron-icon icon="emoji:🤓"></iron-icon>
+      <iron-icon icon="emoji:😆"></iron-icon>
+      <iron-icon icon="emoji:😛"></iron-icon>
+      <iron-icon icon="emoji:🤔"></iron-icon>
+      <iron-icon icon="emoji:🎉"></iron-icon>
+      <iron-icon icon="emoji:🍕"></iron-icon>
+    </p>
+    <p class="big">
+      <iron-icon icon="emoji:🤣"></iron-icon>
+      <iron-icon icon="emoji:🤓"></iron-icon>
+      <iron-icon icon="emoji:😆"></iron-icon>
+      <iron-icon icon="emoji:😛"></iron-icon>
+      <iron-icon icon="emoji:🤔"></iron-icon>
+      <iron-icon icon="emoji:🎉"></iron-icon>
+      <iron-icon icon="emoji:🍕"></iron-icon>
+    </p>
+  </div>
+
+  <div class="card">
+    <h1>Using &lt;emoji-icon&gt;</h1>
+    <p>
+      <emoji-icon emoji="rofl"></emoji-icon>
+      <emoji-icon emoji="nerd"></emoji-icon>
+      <emoji-icon emoji="laughing"></emoji-icon>
+      <emoji-icon emoji="stuck_out_tongue"></emoji-icon>
+      <emoji-icon emoji="thinking"></emoji-icon>
+      <emoji-icon emoji="tada"></emoji-icon>
+      <emoji-icon emoji="pizza"></emoji-icon>
+    </p>
+    <p class="big">
+      <emoji-icon emoji="rofl"></emoji-icon>
+      <emoji-icon emoji="nerd"></emoji-icon>
+      <emoji-icon emoji="laughing"></emoji-icon>
+      <emoji-icon emoji="stuck_out_tongue"></emoji-icon>
+      <emoji-icon emoji="thinking"></emoji-icon>
+      <emoji-icon emoji="tada"></emoji-icon>
+      <emoji-icon emoji="pizza"></emoji-icon>
+    </p>
+  </div>
+
+  <div class="card">
+    <h1>Every emoji in the dictionary</h1>
+    <p>
+      <noto-demo></noto-demo>
+    </p>
+  </div>
+
+</body>
+</html>

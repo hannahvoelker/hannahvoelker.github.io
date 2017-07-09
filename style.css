@@ -1,5 +1,5 @@
 body {
-    background-color: #80b6bc;
+    background-color: #e8fcfb;
     color: azure;
     font-size: 1.1em;
 }
@@ -14,11 +14,16 @@ img {
     height:328px;
     display: block;
     margin: auto;
+    border-radius: 50px;
 }
-.profile {
-    float: left;
-    padding: 8px;
-    padding-right: 80px;
+.github {
+    display: inline;
+}
+.linkedin {
+    display: inline;
+}
+.strava {
+    display: inline;
 }
 
 h3 {
@@ -26,88 +31,27 @@ h3 {
     color: #3cc4d1; 
     font-family: 'Handlee', cursive;
 }
-.navigation {
-    background-color: #def7f9;
-    padding: 8px;
-    border: 0.5px dotted black;
-    border-radius: 5px;
-}
-.navigation:hover {
-   color: #d3e8e3;
-}
-.navigation:link {
-  color: #3cc4d1;
-}
-.navigation:active {
-    color: black;
-    background: white;
-}
-.navigation:visited{
-    color: #42a4f4;
-}
+
 p {
     font-size: 0.8em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
+    padding:20px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 250px;
+    margin-left: 250px;
     text-align: center;
+    border: 2px dotted black;
+    border-radius:20px;
 }
 .description {
-    background-color: #def7f9;
-    padding: 20px;
-    float: right;
+    background-color: white;
     color: #11383d;
+    padding-top:0px;
     font-family: 'Open Sans', sans-serif;
-    margin: 15px;
-    margin-right: 150px;
-    margin-left: 150px;
 }
-.text-block {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9em;
-}
-.project {
-    opacity: 1.0;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    margin: 50px;
-    text-align: center;
-    background-color: #def7f9;
 
-}
-.project:hover {
-    background: white;
-    margin: 50px;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    font-family: 'Open Sans', sans-serif;
-    border: 2px dotted black;
-    opacity: 1.0;
-}
-.project-image {
-    padding: 5px;
-    display:block;
-    margin: auto;
-    height: 150px; 
-    width: 250px; 
-    overflow: hidden;
-}
-.project-inner {
-    overflow: hidden;
-
-}
-.resume {
-   background-color: #def7f9;
-   padding: 5px;
-   margin: 70px;
-
-} 
 h4 {
     font-size: 1.1em;
     text-align: center;
@@ -127,24 +71,7 @@ h2 {
     text-align: center;
     color: black;
 }  
-.row:before, .row:after {
-  content: ""; display: table;
-  padding: 5px;
-}
-.resume-timestamp {
-    font-style:italic;
-    color:#39c2c6;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 0.85em;
-}
-.resume-description {
-    padding: 10px;
-    font-size: 0.8em;
-    text-align: center;
-    color: #11383d;
-    font-family: 'Open Sans', sans-serif;
-}
+
 ul {
      list-style-position: inside;
 }
