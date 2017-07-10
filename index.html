@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title> Hannah Voelker </title>
-	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="style.css" type="text/css">
@@ -11,8 +11,8 @@
   $(document).ready(function() {
       $("div.github").click(function(){
         $("div#description").empty();
-        $("div#description").append("<p> Aside from the interesting work I do in class, I love to tinker with side projects in my free time. See both on <a href =\"https://www.github.com/hannahvoelker\"> my Github.</a> Outside of writing code, I am also a teaching assistant for the Introduction to Computer Science, and volunteer with Tufts Girls of Code. </p> ");
-        $("div#description").show();
+        $("div#description").append("<p> I love building things, for class and just for fun. Most of these projects can be found on <a href =\"https://www.github.com/hannahvoelker\"> my Github.</a> Outside of writing code, I am also a teaching assistant for the Introduction to Computer Science, and a volunteer with Tufts Girls of Code. </p> ");
+        $("div#description").show(5);
       });
        $("div.linkedin").click(function(){
         $("div#description").empty();
@@ -28,8 +28,10 @@
   </script>
 </head>
 <body>
-<img class = "profile" src = "hv.jpg"  alt = "Hello, it's me." class = "img-circle"/>
-<h1><div class ="github">👩🏼‍💻</div><div class = "linkedin">💼 </div><div class = "strava">🏃🏼‍♀️</div></h1>
+
+<img class = "profile" src = "hv.jpg"  alt = "Hello, it's me." /> 
+<h1> Hannah Voelker </h1>
+<h2><div class ="github">👩🏼‍💻</div><div class = "linkedin">💼 </div><div class = "strava">🏃🏼‍♀️</div></h2>
 
 <div id = "description"> </div>
 

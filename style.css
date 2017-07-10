@@ -2,19 +2,25 @@ body {
     background-color: #e8fcfb;
     color: azure;
     font-size: 1.1em;
+    font-family: 'Quicksand', sans-serif;
 }
 h1 {
     color: black;
-    font-family: 'Handlee', cursive;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2em;
+
 }
 img {
-    width:244px;
-    height:328px;
+    width:183px;
+    height:246px;
     display: block;
     margin: auto;
     border-radius: 50px;
+    
+}
+.front {
+    display: inline;
 }
 .github {
     display: inline;
@@ -26,15 +32,17 @@ img {
     display: inline;
 }
 
-h3 {
+
+h2 {
     text-align: center;
     color: #3cc4d1; 
-    font-family: 'Handlee', cursive;
+    font-size: 2.6em;
+   
 }
 
 p {
     font-size: 0.9em;
-    font-family: 'Open Sans', sans-serif;
+    
     color: #11383d;
     padding:20px;
     background-color: white;
@@ -48,28 +56,21 @@ p {
     background-color: white;
     color: #11383d;
     padding-top:0px;
-    font-family: 'Open Sans', sans-serif;
+  
 }
 
 h4 {
     font-size: 1.1em;
     text-align: center;
     color: #1c5e60; 
-    font-family: 'Handlee', cursive;
+   
 }
 h2 {
     text-align: center;
     color: #1c5e60; 
-    font-family: 'Handlee', cursive;
-}
-.header {
     
-    border-bottom: 4px dotted black;
-    font-size: 1.35em;
-    font-family: 'Handlee', cursive;
-    text-align: center;
-    color: black;
-}  
+}
+
 
 ul {
      list-style-position: inside;
