@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: 'Open Sans', sans-serif;
     color: #11383d;
     padding:20px;
@@ -42,8 +42,7 @@ p {
     margin-right: 250px;
     margin-left: 250px;
     text-align: center;
-    border: 2px dotted black;
-    border-radius:20px;
+    border-radius:10px;
 }
 .description {
     background-color: white;
@@ -76,8 +75,10 @@ ul {
      list-style-position: inside;
 }
 a {
-    color: #1481b7;
+    color: #577f7d;
+    font-weight: bolder;
 }
 a:visited {
-   color: #77d2ff;
+   color: #028c85;
+   font-weight: bolder;
 }
