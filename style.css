@@ -9,13 +9,8 @@ h1 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 2em;
-    cursor: pointer;
 }
-h1:hover {
-    
-    font-size: 2.2em;
-    
-}
+
 img {
     width:183px;
     height:246px;
@@ -24,9 +19,7 @@ img {
     border-radius: 50px;
     
 }
-.front {
-    display: inline;
-}
+
 .github {
     display: inline;
 }
@@ -71,4 +64,16 @@ a {
 a:visited {
    color: #028c85;
    font-weight: bolder;
+}
+.github:hover {
+    font-size: 2.2em;
+    cursor: pointer;    
+}
+.linkedin:hover {
+    font-size: 2.2em;
+    cursor: pointer;    
+}
+.strava:hover {
+    font-size: 2.2em;
+    cursor: pointer;    
 }
