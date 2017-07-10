@@ -59,22 +59,6 @@ p {
   
 }
 
-h4 {
-    font-size: 1.1em;
-    text-align: center;
-    color: #1c5e60; 
-   
-}
-h2 {
-    text-align: center;
-    color: #1c5e60; 
-    
-}
-
-
-ul {
-     list-style-position: inside;
-}
 a {
     color: #577f7d;
     font-weight: bolder;
