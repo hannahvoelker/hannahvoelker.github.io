@@ -12,6 +12,7 @@ h1 {
 }
 
 img {
+    padding: 5px;
     width:183px;
     height:246px;
     display: block;
@@ -34,12 +35,12 @@ img {
 h2 {
     text-align: center;
     color: #3cc4d1; 
-    font-size: 2.6em;
+    font-size: 2em;
    
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1em;
     
     color: #11383d;
     padding:20px;
@@ -66,14 +67,14 @@ a:visited {
    font-weight: bolder;
 }
 .github:hover {
-    font-size: 2.2em;
+    font-size: 2.01em;
     cursor: pointer;    
 }
 .linkedin:hover {
-    font-size: 2.2em;
+    font-size: 2.01em;
     cursor: pointer;    
 }
 .strava:hover {
-    font-size: 2.2em;
+    font-size: 2.01em;
     cursor: pointer;    
 }
