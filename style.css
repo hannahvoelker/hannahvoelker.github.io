@@ -1,5 +1,6 @@
 body {
     background-color: #e8fcfb;
+    padding-top: 100px;
     color: azure;
     font-size: 1.1em;
     font-family: 'Quicksand', sans-serif;
@@ -13,7 +14,7 @@ h1 {
 
 img {
     padding: 5px;
-    padding-top: 100px;
+    
     width:183px;
     height:246px;
     display: block;
