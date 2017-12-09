@@ -6,30 +6,29 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/c99d2238c7.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css" type="text/css">
-  <script>
-  $(document).ready(function() {
-      $("div#description").slideUp();
-      $("div.github").click(function(){
-        $("div#description").slideUp().html("<p> I love building things, for class and just for fun. Most of these projects can be found on <a href =\"https://www.github.com/hannahvoelker\"> my Github.</a> Outside of writing code, I am also a teaching assistant for the Introduction to Computer Science, and a volunteer with Tufts Girls of Code. </p> ").slideToggle('slow');
-      });
-       $("div.linkedin").click(function(){
-        $("div#description").slideUp().html("<p> I'm a senior at Tufts University double majoring in computer science and biomedical engineering. I'm interested in the intersection of genomics and software. My <a href = \"https://www.dropbox.com/s/82hyon9507cxqdh/hannahvoelker.pdf?dl=0\">resume</a> provides a summary of where I've been so far. Learn more about my professional development on <a href =\"https://www.linkedin.com/in/hannahvoelker\">LinkedIn.</a></p>").slideToggle('slow');
-      });
-    $("div.strava").click(function(){
-          $("div#description").slideUp().html("<p> I love to run, and am currently training for a half marathon. I document it on <a href =\"https://www.strava.com\">Strava.</a> I also like to swim and hike.</p>").slideToggle('slow');
-    });
-  });
-  </script>
 </head>
 <body>
 
 <img class = "profile" src = "hv.jpg"  alt = "Hello, it's me." /> 
-<h1> Hannah Voelker </h1>
-<h2><div class ="github">👩🏼‍💻</div>&nbsp; &nbsp; <div class = "linkedin">💼 </div>&nbsp; &nbsp;<div class = "strava">🏃🏼‍♀️</div></h2>
+<h1> Hi, I'm Hannah! </h1>
+<h2></h2>
 
-<div id = "description"> </div>
+<div id = "description">
+<p> I'm a senior studying biomedical engineering and minoring in computer science at Tufts University. Currently, I work as an undergraduate researcher at the <a href = "http://www.broadinstitute.org"> Broad Insititue of MIT and Harvard </a> where I am writing RNA-Seq analysis workflows as part of my senior design project.  <br> <br>
+Prior to this, I worked as a software engineer at <a href = http://www.illumina.com> Illumina </a> on the BaseSpace team developing an AWS-based microservice. After I graduate, I will be heading to <a href = "http://www.grailbio.com"> GRAIL </a> where I will be working as a software engineer. </p>
+
+
+<p> Follow me elsewhere
+<br>
+
+<a href ="https://www.linkedin.com/in/hannahvoelker"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &bull; <a href ="https://www.github.com/hannahvoelker"><i class="fa fa-github" aria-hidden="true"></i></a> &bull; <a href ="mailto:hannah.voelker@tufts.edu"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+
+ </p>
+ </div>
+
 
 </body>	
 </html>

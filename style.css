@@ -1,14 +1,13 @@
 body {
     background-color: #e8fcfb;
-    color: azure;
-    font-size: 1.1em;
+
     font-family: 'Quicksand', sans-serif;
 }
 h1 {
     color: black;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 img {
@@ -35,12 +34,17 @@ img {
 h2 {
     text-align: center;
     color: #3cc4d1; 
-    font-size: 2em;
+    font-size: 2.09em;
    
+}
+h4 {
+    text-align: center;
+    background-color: white;
+
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     
     color: #11383d;
     padding:20px;
@@ -67,14 +71,14 @@ a:visited {
    font-weight: bolder;
 }
 .github:hover {
-    font-size: 2.01em;
+    font-size: 2.1em;
     cursor: pointer;    
 }
 .linkedin:hover {
-    font-size: 2.01em;
+    font-size: 2.1em;
     cursor: pointer;    
 }
 .strava:hover {
-    font-size: 2.01em;
+    font-size: 2.1em;
     cursor: pointer;    
 }
