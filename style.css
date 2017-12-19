@@ -1,6 +1,5 @@
 body {
     background-color: #e8fcfb;
-
     font-family: 'Quicksand', sans-serif;
 }
 h1 {
@@ -12,6 +11,7 @@ h1 {
 
 img {
     padding: 5px;
+    
     width:183px;
     height:246px;
     display: block;
